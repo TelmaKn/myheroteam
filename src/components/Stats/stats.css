@@ -1,0 +1,44 @@
+.averages {
+  font-size: 0.8rem;
+}
+
+.stat-1 {
+  color: white;
+}
+.stat-2 {
+  color: rgb(226, 225, 225);
+}
+.stat-3 {
+  color: rgb(204, 204, 204);
+}
+.stat-4 {
+  color: rgb(170, 170, 170);
+}
+.stat-5 {
+  color: rgb(151, 151, 151);
+}
+.stat-6 {
+  color: rgb(131, 131, 131);
+}
+.bck-stats {
+  border-radius: 100px;
+  width: 5.5rem;
+  height: 5.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3.5rem;
+}
+
+.statsrow {
+  display: flex;
+}
+
+@media (max-width: 450px) {
+  .statsrow {
+    display: grid;
+    grid-template-columns: 10px 10px 0px;
+    grid-template-rows: 150px;
+  }
+}
